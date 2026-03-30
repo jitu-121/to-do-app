@@ -43,7 +43,7 @@ function renderTask(task){
     });
 
     li.querySelector("button").addEventListener("click", (e) => {
-      e.stopPropagation(); //prevent toggle from firing
+      e.stopPropagation(); //prevent toggle from firingggg
       tasks = tasks.filter((t) => t.id === task.id);
       li.remove();
       saveTasks();
